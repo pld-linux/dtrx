@@ -1,12 +1,12 @@
 Summary:	Cleanly extract many archive types
 Summary(hu.UTF-8):	Sokféle tömörített állomány egyszerű kicsomagolása
 Name:		dtrx
-Version:	6.5
+Version:	6.6
 Release:	0.1
 License:	GPL v3
 Group:		Applications/Archiving
 Source0:	http://brettcsmith.org/2007/dtrx/%{name}-%{version}.tar.gz
-# Source0-md5:	304c1c5c1699faef85da75d8b6e336e9
+# Source0-md5:	3c6e12c95070942e546645dc8d1c35f6
 URL:		http://brettcsmith.org/2007/dtrx/
 BuildRequires:	python-devel
 Requires:	binutils
