@@ -43,7 +43,7 @@ tömöríteni.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-python setup.py install --prefix=%{_prefix} --root=$RPM_BUILD_ROOT
+%py_install --prefix=%{_prefix} --root=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
