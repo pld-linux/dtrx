@@ -8,6 +8,7 @@ Group:		Applications/Archiving
 Source0:	http://brettcsmith.org/2007/dtrx/%{name}-%{version}.tar.gz
 # Source0-md5:	3c6e12c95070942e546645dc8d1c35f6
 URL:		http://brettcsmith.org/2007/dtrx/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 Requires:	binutils
 Requires:	bzip2
